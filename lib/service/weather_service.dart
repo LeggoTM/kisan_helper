@@ -6,7 +6,7 @@ import 'package:http/http.dart';
 import 'package:kisan_helper/model/weather.dart';
 
 class WeatherService {
-  static const String _apiKey = 'cb485dd4f7aa20980bf067e905e0da34';
+  static const String _apiKey = 'Enter your own API Key here';
   static const String _baseUrl =
       'https://api.openweathermap.org/data/2.5/weather?appid=$_apiKey&units=metric';
 
