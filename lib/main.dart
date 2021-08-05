@@ -8,13 +8,13 @@ import 'package:kisan_helper/fertcalccucumber.dart';
 import 'package:kisan_helper/fertcalcpepper.dart';
 import 'package:kisan_helper/fertcalcpotato.dart';
 import 'package:kisan_helper/fertcalctomato.dart';
-import 'package:kisan_helper/page/home_page.dart';
 import 'package:kisan_helper/pepperbellclick.dart';
 import 'package:kisan_helper/potatoclick.dart';
 import 'package:kisan_helper/screens/disease_classifier.dart';
 import 'package:kisan_helper/screens/homescreen.dart';
 import 'package:kisan_helper/riceclick.dart';
 import 'package:kisan_helper/tomatoclick.dart';
+import 'package:kisan_helper/views/loading_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => MySplashScreen(),
         '/home': (context) => HomeScreen(),
         '/disease_classifier': (context) => DiseaseClassifier(),
-        '/home_page': (context) => HomePage(),
+        '/home_page': (context) => LoadingScreen(),
         '/riceclick': (context) => RiceDiseaseDetection(),
         '/fertilizercalculator': (context) => FertilizerCalculator(),
         '/tomatoclick': (context) => TomatoDiseaseDetection(),

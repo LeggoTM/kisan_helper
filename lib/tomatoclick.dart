@@ -25,7 +25,6 @@ class _DiseaseDetectionState extends State<TomatoDiseaseDetection> {
 
   @override
   void initState() {
-    
     super.initState();
     _loading = true;
 

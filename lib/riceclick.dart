@@ -25,7 +25,6 @@ class _DiseaseDetectionState extends State<RiceDiseaseDetection> {
 
   @override
   void initState() {
-    
     super.initState();
     _loading = true;
 
@@ -196,34 +195,6 @@ class _DiseaseDetectionState extends State<RiceDiseaseDetection> {
                                 Container(
                                   height: 3,
                                 ),
-                                FlatButton(
-                                    color: Colors.green[300],
-                                    textColor: Colors.white,
-                                    disabledColor: Colors.grey,
-                                    disabledTextColor: Colors.black,
-                                    padding:
-                                        EdgeInsets.fromLTRB(50, 20, 50, 20),
-                                    splashColor: Colors.greenAccent,
-                                    onPressed: () {
-                                      Navigator.pushNamed(context, '/sentmail');
-                                    },
-                                    child:
-                                        Text('''Couldn't Find Your Answer!''')),
-                                Container(
-                                  height: 3,
-                                ),
-                                FlatButton(
-                                    color: Colors.green[300],
-                                    textColor: Colors.white,
-                                    disabledColor: Colors.grey,
-                                    disabledTextColor: Colors.black,
-                                    padding:
-                                        EdgeInsets.fromLTRB(60, 20, 60, 20),
-                                    splashColor: Colors.greenAccent,
-                                    onPressed: () {
-                                      Navigator.pushNamed(context, '/location');
-                                    },
-                                    child: Text('Fertilizer Store Location'))
                               ],
                             ),
                           ],
