@@ -3,7 +3,7 @@ import 'package:http/http.dart';
 import 'package:kisan_helper/models/current_weather_api_model.dart';
 import 'package:kisan_helper/services/location_service.dart';
 
-const ApiKey = "cb485dd4f7aa20980bf067e905e0da34";
+const ApiKey = "";
 
 class WeatherApiService {
   WeatherApiService({
