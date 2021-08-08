@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:easy_splash_screen/easy_splash_screen.dart';
 import 'package:kisan_helper/bananaclick.dart';
@@ -20,13 +21,15 @@ void main() {
   runApp(MyApp());
 }
 
+
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
         '/': (context) => MySplashScreen(),
-        '/home': (context) => HomeScreen(),
+        '/home': (context) => LoadingScreen(),
         '/disease_classifier': (context) => DiseaseClassifier(),
         '/home_page': (context) => LoadingScreen(),
         '/riceclick': (context) => RiceDiseaseDetection(),

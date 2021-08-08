@@ -5,7 +5,7 @@ import 'package:kisan_helper/services/get_weather_state.dart';
 import 'package:kisan_helper/views/main_screen.dart';
 
 class LoadingScreen extends StatelessWidget {
-  final RxWeatherView weather = Get.put(RxWeatherView());
+  final RxWeatherView? weather = Get.put(RxWeatherView());
   @override
   Widget build(BuildContext context) {
     if (weather == null) {
