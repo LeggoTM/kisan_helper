@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         '/': (context) => MySplashScreen(),
-        '/home': (context) => LoadingScreen(),
+        '/home': (context) => HomeScreen(),
         '/disease_classifier': (context) => DiseaseClassifier(),
         '/home_page': (context) => LoadingScreen(),
         '/riceclick': (context) => RiceDiseaseDetection(),

@@ -150,7 +150,7 @@ class HomeScreen extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            Navigator.pushNamed(context, '/home');
+            Navigator.pushNamed(context, '/home_page');
           },
           tooltip: "Show Weather",
           child: Icon(Icons.cloud),
